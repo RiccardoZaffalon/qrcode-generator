@@ -1,0 +1,20 @@
+{
+  "name": "qrcode-generator",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "rm -rf dist",
+    "build": "parcel build manifest.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/config-webextension": "^2.8.0",
+    "parcel": "^2.8.0"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.1"
+  }
+}
