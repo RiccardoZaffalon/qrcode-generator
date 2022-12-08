@@ -7,15 +7,11 @@
   "icons": {
     "48": "icons/qr_code.png"
   },
-  "permissions": [
-    "activeTab"
-  ],
-  "browser_action": {
+  "permissions": ["activeTab"],
+  "page_action": {
+    "show_matches": ["<all_urls>"],
     "default_icon": "icons/qr_code.png",
-    "default_title": "QR Code Generator",
+    "default_title": "Get QR Code",
     "default_popup": "popup/qr_code.html"
-  },
-  "web_accessible_resources": [
-    "beasts/*.jpg"
-  ]
+  }
 }
